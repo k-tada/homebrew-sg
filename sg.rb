@@ -2,8 +2,8 @@ require 'formula'
 
 class Sg < Formula
   homepage ''
-  url 'https://github.com/monochromegane/the_silver_searcher/archive/sg-0.16.6.tar.gz'
-  sha1 'c08e8f98c434c0200810487c2cc89a5ecf154fa3'
+  url 'https://github.com/monochromegane/the_silver_searcher/archive/sg-0.18.1.1.tar.gz'
+  sha1 'bec70021e0525274c6b1d16e6d59f48b1ad156f1'
 
   depends_on :automake
   depends_on :autoconf
