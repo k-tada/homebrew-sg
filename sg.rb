@@ -5,8 +5,8 @@ class Sg < Formula
   url 'https://github.com/monochromegane/the_silver_searcher/archive/sg-0.18.1.1.tar.gz'
   sha256 '9f0b27997b86197fece89062ba84ddf206ae225b88482b5b3db4a75f7ed99bae'
 
-  depends_on :automake
-  depends_on :autoconf
+  depends_on 'automake'
+  depends_on 'autoconf'
 
   depends_on 'pkg-config' => :build
   depends_on 'pcre'
